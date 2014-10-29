@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF1BF8511A012A1C00DCD66F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1BF8501A012A1C00DCD66F /* AppDelegate.swift */; };
+		CF1BF8541A012A1C00DCD66F /* Town_of_Holliston.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF1BF8521A012A1C00DCD66F /* Town_of_Holliston.xcdatamodeld */; };
+		CF1BF8561A012A1C00DCD66F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1BF8551A012A1C00DCD66F /* ViewController.swift */; };
+		CF1BF8591A012A1C00DCD66F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1BF8571A012A1C00DCD66F /* Main.storyboard */; };
+		CF1BF85B1A012A1C00DCD66F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF1BF85A1A012A1C00DCD66F /* Images.xcassets */; };
+		CF1BF85E1A012A1C00DCD66F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF1BF85C1A012A1C00DCD66F /* LaunchScreen.xib */; };
+		CF1BF86A1A012A1C00DCD66F /* Town_of_HollistonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1BF8691A012A1C00DCD66F /* Town_of_HollistonTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF1BF8641A012A1C00DCD66F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF1BF8431A012A1C00DCD66F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF1BF84A1A012A1C00DCD66F;
+			remoteInfo = "Town of Holliston";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF1BF84B1A012A1C00DCD66F /* Town of Holliston.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Town of Holliston.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1BF84F1A012A1C00DCD66F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF1BF8501A012A1C00DCD66F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF1BF8531A012A1C00DCD66F /* Town_of_Holliston.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Town_of_Holliston.xcdatamodel; sourceTree = "<group>"; };
+		CF1BF8551A012A1C00DCD66F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF1BF8581A012A1C00DCD66F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF1BF85A1A012A1C00DCD66F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CF1BF85D1A012A1C00DCD66F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CF1BF8631A012A1C00DCD66F /* Town of HollistonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Town of HollistonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1BF8681A012A1C00DCD66F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF1BF8691A012A1C00DCD66F /* Town_of_HollistonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Town_of_HollistonTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF1BF8481A012A1C00DCD66F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1BF8601A012A1C00DCD66F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF1BF8421A012A1C00DCD66F = {
+			isa = PBXGroup;
+			children = (
+				CF1BF84D1A012A1C00DCD66F /* Town of Holliston */,
+				CF1BF8661A012A1C00DCD66F /* Town of HollistonTests */,
+				CF1BF84C1A012A1C00DCD66F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF1BF84C1A012A1C00DCD66F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF1BF84B1A012A1C00DCD66F /* Town of Holliston.app */,
+				CF1BF8631A012A1C00DCD66F /* Town of HollistonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1BF84D1A012A1C00DCD66F /* Town of Holliston */ = {
+			isa = PBXGroup;
+			children = (
+				CF1BF8501A012A1C00DCD66F /* AppDelegate.swift */,
+				CF1BF8551A012A1C00DCD66F /* ViewController.swift */,
+				CF1BF8571A012A1C00DCD66F /* Main.storyboard */,
+				CF1BF85A1A012A1C00DCD66F /* Images.xcassets */,
+				CF1BF85C1A012A1C00DCD66F /* LaunchScreen.xib */,
+				CF1BF8521A012A1C00DCD66F /* Town_of_Holliston.xcdatamodeld */,
+				CF1BF84E1A012A1C00DCD66F /* Supporting Files */,
+			);
+			path = "Town of Holliston";
+			sourceTree = "<group>";
+		};
+		CF1BF84E1A012A1C00DCD66F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF1BF84F1A012A1C00DCD66F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF1BF8661A012A1C00DCD66F /* Town of HollistonTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF1BF8691A012A1C00DCD66F /* Town_of_HollistonTests.swift */,
+				CF1BF8671A012A1C00DCD66F /* Supporting Files */,
+			);
+			path = "Town of HollistonTests";
+			sourceTree = "<group>";
+		};
+		CF1BF8671A012A1C00DCD66F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF1BF8681A012A1C00DCD66F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF1BF84A1A012A1C00DCD66F /* Town of Holliston */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF1BF86D1A012A1C00DCD66F /* Build configuration list for PBXNativeTarget "Town of Holliston" */;
+			buildPhases = (
+				CF1BF8471A012A1C00DCD66F /* Sources */,
+				CF1BF8481A012A1C00DCD66F /* Frameworks */,
+				CF1BF8491A012A1C00DCD66F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Town of Holliston";
+			productName = "Town of Holliston";
+			productReference = CF1BF84B1A012A1C00DCD66F /* Town of Holliston.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF1BF8621A012A1C00DCD66F /* Town of HollistonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF1BF8701A012A1C00DCD66F /* Build configuration list for PBXNativeTarget "Town of HollistonTests" */;
+			buildPhases = (
+				CF1BF85F1A012A1C00DCD66F /* Sources */,
+				CF1BF8601A012A1C00DCD66F /* Frameworks */,
+				CF1BF8611A012A1C00DCD66F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF1BF8651A012A1C00DCD66F /* PBXTargetDependency */,
+			);
+			name = "Town of HollistonTests";
+			productName = "Town of HollistonTests";
+			productReference = CF1BF8631A012A1C00DCD66F /* Town of HollistonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF1BF8431A012A1C00DCD66F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Thivakkar Mahendran";
+				TargetAttributes = {
+					CF1BF84A1A012A1C00DCD66F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					CF1BF8621A012A1C00DCD66F = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = CF1BF84A1A012A1C00DCD66F;
+					};
+				};
+			};
+			buildConfigurationList = CF1BF8461A012A1C00DCD66F /* Build configuration list for PBXProject "Town of Holliston" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1BF8421A012A1C00DCD66F;
+			productRefGroup = CF1BF84C1A012A1C00DCD66F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF1BF84A1A012A1C00DCD66F /* Town of Holliston */,
+				CF1BF8621A012A1C00DCD66F /* Town of HollistonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF1BF8491A012A1C00DCD66F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1BF8591A012A1C00DCD66F /* Main.storyboard in Resources */,
+				CF1BF85E1A012A1C00DCD66F /* LaunchScreen.xib in Resources */,
+				CF1BF85B1A012A1C00DCD66F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1BF8611A012A1C00DCD66F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF1BF8471A012A1C00DCD66F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1BF8561A012A1C00DCD66F /* ViewController.swift in Sources */,
+				CF1BF8511A012A1C00DCD66F /* AppDelegate.swift in Sources */,
+				CF1BF8541A012A1C00DCD66F /* Town_of_Holliston.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1BF85F1A012A1C00DCD66F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1BF86A1A012A1C00DCD66F /* Town_of_HollistonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF1BF8651A012A1C00DCD66F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF1BF84A1A012A1C00DCD66F /* Town of Holliston */;
+			targetProxy = CF1BF8641A012A1C00DCD66F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF1BF8571A012A1C00DCD66F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF1BF8581A012A1C00DCD66F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF1BF85C1A012A1C00DCD66F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF1BF85D1A012A1C00DCD66F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF1BF86B1A012A1C00DCD66F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF1BF86C1A012A1C00DCD66F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF1BF86E1A012A1C00DCD66F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Town of Holliston/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF1BF86F1A012A1C00DCD66F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Town of Holliston/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF1BF8711A012A1C00DCD66F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Town of HollistonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Town of Holliston.app/Town of Holliston";
+			};
+			name = Debug;
+		};
+		CF1BF8721A012A1C00DCD66F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Town of HollistonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Town of Holliston.app/Town of Holliston";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF1BF8461A012A1C00DCD66F /* Build configuration list for PBXProject "Town of Holliston" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1BF86B1A012A1C00DCD66F /* Debug */,
+				CF1BF86C1A012A1C00DCD66F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF1BF86D1A012A1C00DCD66F /* Build configuration list for PBXNativeTarget "Town of Holliston" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1BF86E1A012A1C00DCD66F /* Debug */,
+				CF1BF86F1A012A1C00DCD66F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF1BF8701A012A1C00DCD66F /* Build configuration list for PBXNativeTarget "Town of HollistonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1BF8711A012A1C00DCD66F /* Debug */,
+				CF1BF8721A012A1C00DCD66F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF1BF8521A012A1C00DCD66F /* Town_of_Holliston.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF1BF8531A012A1C00DCD66F /* Town_of_Holliston.xcdatamodel */,
+			);
+			currentVersion = CF1BF8531A012A1C00DCD66F /* Town_of_Holliston.xcdatamodel */;
+			path = Town_of_Holliston.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CF1BF8431A012A1C00DCD66F /* Project object */;
+}
